@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Rewards.gg Tickets Bot Recode.exe" version="1.0.0.0" publicKeyToken="6599030d0ba0d127" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="receipt.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Rewards.gg Tickets Bot Recode" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Rewards.gg Tickets Bot Recode.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Awesomium.Core.dll" size="1286880">
+      <assemblyIdentity name="Awesomium.Core" version="1.7.5.1" publicKeyToken="E1A0D7C8071A5214" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>tiMcWDNxt82FOCcYC8PNVhgA++Y=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Awesomium.Windows.Controls.dll" size="600288">
+      <assemblyIdentity name="Awesomium.Windows.Controls" version="1.7.5.1" publicKeyToken="7A34E179B8B61C39" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>JSz/FtFvFK+nO7Y+pcI1ZQ8LXRM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Awesomium.Windows.Forms.dll" size="319712">
+      <assemblyIdentity name="Awesomium.Windows.Forms" version="1.7.5.1" publicKeyToken="9BD24830FBE304A0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>LX1dqXfJuCKwb3SCL7CZmtsl4Fo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Rewards.gg Tickets Bot Recode.exe" size="77736">
+      <assemblyIdentity name="Rewards.gg Tickets Bot Recode" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>cxE2PTfPn51E6pjdM0nsJLqO6Nk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="receipt.ico" size="1150">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>j3jh+DLM3lJIwN/BFGendk94AtE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Rewards.gg Tickets Bot Recode.exe.config" size="1363">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>khphXH9C52lgJ5G/BSPAc1IPlok=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on and is
+           is designed to work with. Uncomment the appropriate elements and Windows will 
+           automatically selected the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=KAZGAMINGPC\Martin" issuerKeyHash="3b88002ba974513dbc1356bd30d3232bf272d4d2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Sb5I8cdYBNVKYuBvuE2Z0L8/N74=</DigestValue></Reference></SignedInfo><SignatureValue>Q5l/dJN3kB+DWmzV9RR8S8Ae08ZSs4873g1xvtNs0Ue5joaesHeBPugElr+NYlkA0Oc8A+AOwefNXhQVegHo5FUW1/XRwc8v+GK4lI6/5nEYKL8aPLd3UN+GGUZY7u0GwNehJ7yFEgGQD6ac64BuAHov05O8gaZ2bzF4GHlyQ2Y=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vyN7PT6KyXlikNTkk06QeGsBTYO4SRpPp7T9tYNTsOSrU9ufBRyZ2dzzspmBhl9oEs3ngRTZcQGPjo1VFwlbG+mx92aTbsqYighgJpiog8xXpOmnTMoAqED5hD9Q2DF/BO2hNCogqya0ZdfmUlJ8RbXJ3QCePAPNcxWR521G/4s=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="be373fbfd0994db86fe0624ad50458c7f148be49" Description="" Url=""><as:assemblyIdentity name="Rewards.gg Tickets Bot Recode.exe" version="1.0.0.0" publicKeyToken="6599030d0ba0d127" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=KAZGAMINGPC\Martin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>h5KMWye2mMgeZSz3BE1Xnp21OH0=</DigestValue></Reference></SignedInfo><SignatureValue>aOnA8bXp5RTghdtTIHhYFnizao6u5f3xl2c4WgtmAfVvhNKz1P/MEceEKEHsIPhnNhak8Y9rhwAbDoo8rh34OWApfFjeOvmh/jLEjRxkyoaxU6ArA5clrPIj2JPoIKJTwqTG6D7QdbpB1PG+6linE6rINC7oruGgMPEm+LSY+Co=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vyN7PT6KyXlikNTkk06QeGsBTYO4SRpPp7T9tYNTsOSrU9ufBRyZ2dzzspmBhl9oEs3ngRTZcQGPjo1VFwlbG+mx92aTbsqYighgJpiog8xXpOmnTMoAqED5hD9Q2DF/BO2hNCogqya0ZdfmUlJ8RbXJ3QCePAPNcxWR521G/4s=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQRsauUTxGoJVG5Vh/2BVyAjANBgkqhkiG9w0BAQUFADAvMS0wKwYDVQQDHiQASwBBAFoARwBBAE0ASQBOAEcAUABDAFwATQBhAHIAdABpAG4wHhcNMTYwNzA5MjIyNzM1WhcNMTcwNzEwMDQyNzM1WjAvMS0wKwYDVQQDHiQASwBBAFoARwBBAE0ASQBOAEcAUABDAFwATQBhAHIAdABpAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAL8jez0+isl5YpDU5JNOkHhrAU2DuEkaT6e0/bWDU7Dkq1PbnwUcmdnc87KZgYZfaBLN54EU2XEBj46NVRcJWxvpsfdmk27KmIoIYCaYqIPMV6Tpp0zKAKhA+YQ/UNgxfwTtoTQqIKsmtGXX5lJSfEW1yd0AnjwDzXMVkedtRv+LAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAs1Hz0BGBHuv9C0g+06qINgc0zjjd80dc/vLMXgsV6y/Co2q0s+sbeZG6CT/TDolTM4kpxEM9NfggbRnhXlXmIZPxkc4i2cePs5cwGHDhg0L8zB+MMbkEdskJaHb63RzM041xlyQ446jQtD04WHOtjGXwhXkEyoKMEtZ6I5usAfs=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
